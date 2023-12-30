@@ -14,7 +14,8 @@ from colorama import Fore
 
 verbose = False
 os.environ["COLUMNS"] = "200"
-output_dir = "..\\output"
+base_dir = os.path.dirname(sys.executable)
+output_dir = os.path.join(base_dir, "..\\output")
 filename = os.path.basename(__file__).split(".")[0]
 log = verboselogs.VerboseLogger(filename)
 
