@@ -6,7 +6,7 @@ Take a screenshot in Sharex with hotkey Win + Shift + E
 
 
 # 1. Install Tesseract 
-Install Tesseract-OCR in `C:\Program Files\Tesseract-OCR`: https://github.com/UB-Mannheim/tesseract/wiki
+Install [Tesseract-OCR](https://github.com/UB-Mannheim/tesseract/wiki) in `C:\Program Files\Tesseract-OCR`:
 Add `C:\Program Files\Tesseract-OCR` to your system PATH. You should be able to run Tesseract from anywhere.
 
 Use `tesseract.exe` (run PS as admin):
