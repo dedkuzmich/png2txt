@@ -6,10 +6,10 @@ Take a screenshot in Sharex with hotkey Win + Shift + E
 
 
 # 1. Install Tesseract 
-Install [Tesseract-OCR](https://github.com/UB-Mannheim/tesseract/wiki) in `C:\Program Files\Tesseract-OCR`:
+Install [Tesseract-OCR](https://github.com/UB-Mannheim/tesseract/wiki) in `C:\Program Files\Tesseract-OCR`.
 Add `C:\Program Files\Tesseract-OCR` to your system PATH. You should be able to run Tesseract from anywhere.
 
-Use `tesseract.exe` (run PS as admin):
+Use `tesseract.exe` (run PowerShell as admin):
 ```ps
 PS C:\Users\lol19\Desktop> tesseract "IMAGE.PNG" "Text" -l ukr+eng
 ```
@@ -20,7 +20,7 @@ File Text.txt will contain a text from "IMAGE.PNG".
 # 2. Install Png2txt
 Copy this repo in `C:\Users\lol19\Pictures\ShareX\png2txt`
 
-Install dependencies:
+Install all dependencies:
 ```ps
 PS C:\Users\lol19\Pictures\ShareX\png2txt\bin> pip install -r requirements.txt
 ```
