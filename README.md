@@ -1,7 +1,7 @@
-Assume that you have ShareX that saves all screenshots in `C:\Users\lol19\Pictures\ShareX`
-This folder should contain subfolders `2023-08`, `2023-09`, ..., `2023-12` with PNG files inside.
+Assume that you have ShareX that saves all screenshots in `C:\Users\lol19\Pictures\ShareX`.
+This folder should contain subfolders `2023-08`, `2023-09`, `...`, `2023-12` with PNG files inside.
 
-Take a screenshot in Sharex with hotkey Win + Shift + E
+Take a screenshot in Sharex with hotkey Win + Shift + E.
 
 
 
@@ -18,7 +18,7 @@ File Text.txt will contain a text from "IMAGE.PNG".
 
 
 # 2. Install Png2txt
-Copy this repo in `C:\Users\lol19\Pictures\ShareX\png2txt`
+Copy this repo in `C:\Users\lol19\Pictures\ShareX\png2txt`.
 
 Install all dependencies:
 ```ps
@@ -45,23 +45,23 @@ Add `C:\Users\lol19\Pictures\ShareX\png2txt\bin\dist` to your system PATH. You s
 
 # 3. Usage examples
 You can: 
-* set languages:
+* Set languages:
 ```ps
 PS C:\Users\lol19\Desktop> png2txt -l "eng"
 PS C:\Users\lol19\Desktop> png2txt -l "ukr+eng"
 ```
 
-* set folder and PNG:
+* Set folder and PNG:
 ```ps
 PS C:\Users\lol19\Desktop> png2txt -d "C:\Users\lol" -f "kek.png"
 ```
 
-* use verbose mode:
+* Use verbose mode:
 ```ps
 PS C:\Users\lol19\Desktop> png2txt -v
 ```
 
-* use default params (last modified ShareX folder + last created PNG):
+* Use default params (last modified ShareX folder + last created PNG):
 ```ps
 PS C:\Users\lol19\Desktop> png2txt
 ```
