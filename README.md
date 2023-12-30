@@ -1,4 +1,4 @@
-## Png2txt
+# Png2txt
 Assume that you already have ShareX that saves all screenshots in `C:\Users\lol19\Pictures\ShareX`.
 This folder should contain subfolders `2023-08`, `2023-09`, `...`, `2023-12` with PNG files inside.
 
@@ -6,7 +6,7 @@ Take a screenshot in Sharex with hotkey Win + Shift + E.
 
 
 
-# 1. Install Tesseract 
+## 1. Install Tesseract 
 Install [Tesseract-OCR](https://github.com/UB-Mannheim/tesseract/wiki) in `C:\Program Files\Tesseract-OCR`.
 Add `C:\Program Files\Tesseract-OCR` to your system PATH. You should be able to run Tesseract from anywhere.
 
@@ -18,7 +18,7 @@ File Text.txt will contain a text from "IMAGE.PNG".
 
 
 
-# 2. Install Png2txt
+## 2. Install Png2txt
 Copy this repo in `C:\Users\lol19\Pictures\ShareX\png2txt`.
 
 Install all dependencies:
@@ -44,7 +44,7 @@ PS C:\Users\lol19\Pictures\ShareX\png2txt\bin\dist> png2txt.exe -h
 Add `C:\Users\lol19\Pictures\ShareX\png2txt\bin\dist` to your system PATH. You should be able to run Png2txt from anywhere.
 
 
-# 3. Usage examples
+## 3. Usage examples
 You can: 
 * Set languages:
 ```ps
