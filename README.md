@@ -1,5 +1,5 @@
 Assume that you have ShareX that saves all screenshots in `C:\Users\lol19\Pictures\ShareX`
-This dir should contain dirs `2023-08`, `2023-09`, ..., `2023-12` with PNG files inside.
+This folder should contain subfolders `2023-08`, `2023-09`, ..., `2023-12` with PNG files inside.
 
 Take a screenshot in Sharex with hotkey Win + Shift + E
 
