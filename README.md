@@ -68,7 +68,7 @@ PS C:\Users\lol19\Desktop> png2txt
 ```
 
 ## 4. Add more languages
-You can find language packs [here](https://github.com/tesseract-ocr/tesseract/wiki/Data-Files/1467229f37bb073850344fc4c1d06b7b199e4f73)
-Copy .traineddata file to `C:\Program Files\Tesseract-OCR\tessdata`
+You can find language packs [here](https://github.com/tesseract-ocr/tesseract/wiki/Data-Files/1467229f37bb073850344fc4c1d06b7b199e4f73).
+Copy .traineddata file to `C:\Program Files\Tesseract-OCR\tessdata`.
 
 
