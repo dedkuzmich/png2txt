@@ -19,7 +19,7 @@ File Text.txt will contain a text from "IMAGE.PNG".
 
 
 ## 2. Install Png2txt
-Copy this repo in `C:\Users\lol19\Pictures\ShareX\png2txt`.
+Copy this repo to `%USERPROFILE%\Pictures\ShareX\png2txt`.
 
 Install all dependencies:
 ```ps
@@ -54,7 +54,7 @@ PS C:\Users\lol19\Desktop> png2txt -l "ukr+eng"
 
 * Set folder and PNG:
 ```ps
-PS C:\Users\lol19\Desktop> png2txt -d "C:\Users\lol" -f "kek.png"
+PS C:\Users\lol19\Desktop> png2txt -d "C:\abc\def" -f "kek.png"
 ```
 
 * Use verbose mode:
