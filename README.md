@@ -1,12 +1,17 @@
 # Png2txt
-Assume that you already have ShareX that saves all screenshots in `%USERPROFILE%\Pictures\ShareX`.
+Png2txt is a wrapper over the Tesseract-OCR. It’s designed to extract text from the latest screenshot made with ShareX. 
+
+
+
+## 0. Before we proceed
+Assume that you already have [ShareX](https://getsharex.com/) that saves screenshots in `%USERPROFILE%\Pictures\ShareX`.
 This folder should contain subfolders `2023-08`, `2023-09`, `...`, `2023-12` with PNG files inside.
 
 Take a screenshot in Sharex with hotkey Win + Shift + E.
 
 
 
-## 1. Install Tesseract 
+## 1. Install Tesseract
 Install [Tesseract-OCR](https://github.com/UB-Mannheim/tesseract/wiki) in `C:\Program Files\Tesseract-OCR`.
 Add `C:\Program Files\Tesseract-OCR` to your system PATH. You should be able to run Tesseract from anywhere.
 
