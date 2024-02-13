@@ -12,9 +12,9 @@ Add `C:\Program Files\Tesseract-OCR` to your system PATH. You should be able to 
 
 Use `tesseract.exe` (run PowerShell as admin):
 ```ps
-PS C:\Users\lol19\Desktop> tesseract "IMAGE.PNG" "Text" -l ukr+eng
+PS C:\Users\lol19\Desktop> tesseract "IMAGE.PNG" "EXAMPLE" -l ukr+eng
 ```
-File Text.txt will contain a text from "IMAGE.PNG".
+File EXAMPLE.txt will contain the extracted text from "IMAGE.PNG".
 
 
 
