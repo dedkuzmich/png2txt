@@ -1,6 +1,12 @@
 # Png2txt
 Png2txt is a wrapper over the Tesseract-OCR. It’s designed to extract text from the latest screenshot made with ShareX. 
 
+| Month    | Savings |
+| -------- | ------- |
+| January  | $250    |
+| February | $80     |
+| March    | $420    |
+
 
 
 ## Before we proceed
