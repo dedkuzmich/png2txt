@@ -3,7 +3,7 @@ Png2txt is a wrapper over the Tesseract-OCR. It’s designed to extract text fro
 
 
 
-## 0. Before we proceed
+## Before we proceed
 Assume that you already have [ShareX](https://getsharex.com/) that saves screenshots in `%USERPROFILE%\Pictures\ShareX`.
 This folder should contain subfolders `2023-08`, `2023-09`, `...`, `2023-12` with PNG files inside.
 
