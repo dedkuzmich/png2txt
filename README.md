@@ -41,7 +41,7 @@ Ensure that `dist` folder has been created and it contains file `png2txt.exe`:
 PS C:\Users\lol19\Pictures\ShareX\png2txt\bin\dist> png2txt.exe -h
 ```
 
-Add `C:\Users\lol19\Pictures\ShareX\png2txt\bin\dist` to your system PATH. You should be able to run Png2txt from anywhere.
+Add `%USERPROFILE%\Pictures\ShareX\png2txt\bin\dist` to your system PATH. You should be able to run Png2txt from anywhere.
 
 
 ## 3. Usage examples
